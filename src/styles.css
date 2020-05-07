@@ -1,0 +1,39 @@
+body {
+  overflow: hidden;
+  background-color: rgba(233, 227, 227, 0.87);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  align-content: center;
+  margin: 25% auto;
+}
+
+.follow-me-btn {
+  width: 150px;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-top: 0.4px solid rgba(117, 117, 117, 0.726);
+  border-left: 0.4px solid rgba(117, 117, 117, 0.726);
+  border-bottom: 2px solid rgb(194, 194, 194);
+  border-right: 2px solid rgb(194, 194, 194);
+  box-shadow: 3px 3px 5px rgb(131, 131, 131);
+  letter-spacing: normal;
+  opacity: 1;
+  transition: letter-spacing 1s, opacity 2s;
+  overflow: hidden;
+}
+
+.fa-footer {
+  color: black;
+  margin: 10px;
+  opacity: 0;
+  height: 64px;
+  transition: opacity 1s, height 1s;
+}
