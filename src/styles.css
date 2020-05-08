@@ -37,3 +37,8 @@ body {
   height: 64px;
   transition: opacity 1s, height 1s;
 }
+
+.linkedin {
+  height: 50px;
+  padding-bottom: 6px;
+}

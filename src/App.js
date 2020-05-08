@@ -86,6 +86,19 @@ export default function App() {
           class="fa-footer"
         />
       </a>
+      <a href="https://www.linkedin.com/in/pratham-kumar-abb051175/">
+        <img
+          src="https://image.flaticon.com/icons/svg/174/174857.svg"
+          alt=""
+          onMouseOver={() => setLinkedinIcon(true)}
+          onMouseOut={() => setLinkedinIcon(false)}
+          style={{
+            opacity: isMouseOver ? "1" : "0",
+            height: linkedinIcon ? "63px" : ""
+          }}
+          class="fa-footer linkedin"
+        />
+      </a>
       <a href="https://www.facebook.com/profile.php?id=100008740838226">
         <img
           src="https://img.icons8.com/color/64/000000/facebook-new.png"
