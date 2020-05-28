@@ -1,6 +1,7 @@
 body {
   overflow: hidden;
   background-color: rgba(233, 227, 227, 0.87);
+  transition: background-color 1s;
 }
 
 .App {

@@ -9,10 +9,19 @@ export default function App() {
   const [facebookIcon, setFacebookIcon] = useState(false);
   const [instagramIcon, setInstagramIcon] = useState(false);
 
+  function handleMouseOver() {
+    setMouseOver(!isMouseOver);
+    if (isMouseOver) {
+      document.body.style.backgroundColor = "white";
+    } else {
+      document.body.style.backgroundColor = "black";
+    }
+  }
+
   return (
     <div className="container">
       <button
-        onMouseOver={() => setMouseOver(!isMouseOver)}
+        onMouseOver={handleMouseOver}
         // onMouseOut={() => setMouseOver(!isMouseOver)}
         style={{
           backgroundColor: isMouseOver ? "rgb(216, 243, 241)" : "",
